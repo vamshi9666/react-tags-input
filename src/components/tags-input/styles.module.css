@@ -1,0 +1,50 @@
+.tagsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.tagsContainer:focus-within {
+  border: 1px solid blue;
+}
+
+.tagsContainer > div {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tagsContainer > div:hover {
+  background-color: #ccc;
+  color: #fff;
+}
+
+.tagsContainer input {
+  border: none;
+  outline: none;
+}
+
+.tagsContainer .badge {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+}
